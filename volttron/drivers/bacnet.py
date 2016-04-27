@@ -584,7 +584,9 @@ if __name__ == "__main__":
     from time import sleep
     import sys
     
-    iface = BACnetInterface(sys.argv[1], sys.argv[2], config_file='test2.csv')
+    #iface = BACnetInterface(sys.argv[1], sys.argv[2], config_file='test2.csv')
+    iface = BACnetInterface(sys.argv[1], sys.argv[2], 
+                config_file='/home/klockhart/wrk/volttron/drivers/bacnet_ct-hq.csv')
     
     def run_tests():    
         print 'Test'

@@ -10,8 +10,8 @@
     # tornado webserver during agent start up.
     "server" : {
         "host": "127.0.0.1",
-        "port": 8080,
-        "debug": "False"
+        "port": 8008,
+        "debug": "True"
     },
     
     # Authentication for users is handled through a naive password algorithm
@@ -30,8 +30,15 @@
                 "writer"
             ]
         },
+        "user" : {
+            "password" : "4ae91a8f1519b875ef3ea270c08e90175e30122ed6e2adac91eba9aa6e5080bf59fc89a0a1cf70ee4c169f52059a741e09c83c95a7f3280538dc3e49dd1db058",
+            "groups" : [
+                "reader,writer"
+            ]
+        },
         "admin" : {
-            "password" : "c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec",
+            #"password" : "c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec",
+            "password" : "bdd373786cde329360030c804a8f61342a4ccf787c1df8bef09ec8504b1eec14798279f9ee955e0a544ac2ede8e8fa7252a730731b3dd69083396c513fe52704",
             "groups" : [
                 "admin"
             ]

@@ -1,6 +1,7 @@
 {
     # Agent id is used in the display on volttron central.
-    "agentid": "Central Platform",
+    #"agentid": "Central Platform",
+    "agentid": "Node 1",
     
     # Configuration parameters.
     #
