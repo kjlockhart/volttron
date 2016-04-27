@@ -1,0 +1,33 @@
+2016-04-25 14:45:47,919 (listeneragent-3.0 25477) listener.agent 
+DEBUG: Peer: 'pubsub', Sender: 'platform.driver':, 
+Bus: u'', Topic: 'devices/all/bacnet1/building/campus', 
+Headers: {'Date': '2016-04-25 21:45:47.772812Z'}, 
+Message: [{
+'MinuteCount_AV': 1310128.0, 
+'Apparent_Consumption_AV': 10044110.0, 
+'Electric Meter Increment2s': 18080.0, 
+'HourCount_AV': 21811.0, 
+'Electric Meter Increment1s': 75431.0, 
+'10MinSin_AV': 7598.076171875, 
+'OAT': 6.999695301055908, 
+'Consumption_AV': 26510784.0, 
+'Gas Meter 1': 1808000.0, 
+'60MinSin_AV': 62940.95703125, 
+'DayCount_AV': 909.0, 
+'Mwh Plug Load': 1466.0, 
+'Gas Meter 2': 90405.0}, {
+
+'MinuteCount_AV': {'units': u'', 'type': 'integer', 'tz': 'UTC'}, 
+'Apparent_Consumption_AV': {'units': u'', 'type': 'integer', 'tz': 'UTC'}, 
+'Gas Meter 1': {'units': u'', 'type': 'integer', 'tz': 'UTC'}, 
+'HourCount_AV': {'units': u'', 'type': 'integer', 'tz': 'UTC'}, 
+'OAT': {'units': u'', 'type': 'integer', 'tz': 'UTC'}, 
+'Consumption_AV': {'units': u'', 'type': 'integer', 'tz': 'UTC'}, 
+'10MinSin_AV': {'units': u'', 'type': 'integer', 'tz': 'UTC'}, 
+'Electric Meter Increment2s': {'units': u'', 'type': 'integer', 'tz': 'UTC'}, 
+'Electric Meter Increment1s': {'units': u'', 'type': 'integer', 'tz': 'UTC'}, 
+'60MinSin_AV': {'units': u'', 'type': 'integer', 'tz': 'UTC'}, 
+'DayCount_AV': {'units': u'', 'type': 'integer', 'tz': 'UTC'}, 
+'Mwh Plug Load': {'units': u'', 'type': 'integer', 'tz': 'UTC'}, 
+'Gas Meter 2': {'units': u'', 'type': 'integer', 'tz': 'UTC'}
+}]

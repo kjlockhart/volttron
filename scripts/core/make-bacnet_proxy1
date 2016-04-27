@@ -1,0 +1,8 @@
+export SOURCE=services/core/BACnetProxy 
+export CONFIG=services/core/BACnetProxy/bacnet-proxy1.agent 
+export TAG=bacnet-proxy1
+
+./scripts/core/make-agent.sh 
+
+# To set the agent to autostart with the platform, pass "enable" 
+# to make-agent.sh: ./scripts/core/make-agent.sh enable
